@@ -92,3 +92,5 @@ model_0 = FashionMNISTModelV0(input_shape=784,  # one for every pixel (28x28)
                               output_shape=len(class_names)  # one for every class
                               )
 model_0.to("cpu")  # keep model on CPU to begin with
+
+
